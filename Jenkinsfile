@@ -69,7 +69,7 @@ pipeline {
         stage('Integration Tests on Staging') {
             steps {
                 echo "Running integration tests on the staging environment"
-                
+                echo "updating the script"
             }
         }
         stage('Approval') {
