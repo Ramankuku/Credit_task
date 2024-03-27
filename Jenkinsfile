@@ -82,6 +82,7 @@ pipeline {
         stage('Deploy to Production') {
             steps {
                 echo "Deploying the code to the production environment "
+                echo "Hello Hi"
                
             }
         }
